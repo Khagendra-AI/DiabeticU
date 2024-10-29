@@ -23,11 +23,11 @@ const Splash = ({navigation}) => {
 
   return (
     <View style={styles.container}>
-      <Image
+      {/* <Image
         resizeMode="cover"
         source={Images.splash}
         style={styles.splashimage}
-      />
+      /> */}
       <Image
         resizeMode="cover"
         source={Images.splash_alterate}

@@ -8,6 +8,22 @@
 
 /* Begin PBXBuildFile section */
 		00E356F31AD99517003FC87E /* DiabeticUTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* DiabeticUTests.m */; };
+		019DFBA52CD0A87C00C3185A /* SplashScreen.java in Sources */ = {isa = PBXBuildFile; fileRef = 019DFB822CD0A87C00C3185A /* SplashScreen.java */; };
+		019DFBA62CD0A87C00C3185A /* SplashScreenModule.java in Sources */ = {isa = PBXBuildFile; fileRef = 019DFB832CD0A87C00C3185A /* SplashScreenModule.java */; };
+		019DFBA72CD0A87C00C3185A /* SplashScreenReactPackage.java in Sources */ = {isa = PBXBuildFile; fileRef = 019DFB842CD0A87C00C3185A /* SplashScreenReactPackage.java */; };
+		019DFBA82CD0A87C00C3185A /* refs.xml in Resources */ = {isa = PBXBuildFile; fileRef = 019DFB8A2CD0A87C00C3185A /* refs.xml */; };
+		019DFBA92CD0A87C00C3185A /* strings.xml in Resources */ = {isa = PBXBuildFile; fileRef = 019DFB8B2CD0A87C00C3185A /* strings.xml */; };
+		019DFBAA2CD0A87C00C3185A /* styles.xml in Resources */ = {isa = PBXBuildFile; fileRef = 019DFB8C2CD0A87C00C3185A /* styles.xml */; };
+		019DFBAB2CD0A87C00C3185A /* AndroidManifest.xml in Resources */ = {isa = PBXBuildFile; fileRef = 019DFB8F2CD0A87C00C3185A /* AndroidManifest.xml */; };
+		019DFBAC2CD0A87C00C3185A /* build.gradle in Resources */ = {isa = PBXBuildFile; fileRef = 019DFB922CD0A87C00C3185A /* build.gradle */; };
+		019DFBAD2CD0A87C00C3185A /* RNSplashScreen.m in Sources */ = {isa = PBXBuildFile; fileRef = 019DFB952CD0A87C00C3185A /* RNSplashScreen.m */; };
+		019DFBAE2CD0A87C00C3185A /* index.js in Resources */ = {isa = PBXBuildFile; fileRef = 019DFB992CD0A87C00C3185A /* index.js */; };
+		019DFBAF2CD0A87C00C3185A /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = 019DFB9A2CD0A87C00C3185A /* LICENSE */; };
+		019DFBB02CD0A87C00C3185A /* package.json in Resources */ = {isa = PBXBuildFile; fileRef = 019DFB9B2CD0A87C00C3185A /* package.json */; };
+		019DFBB12CD0A87C00C3185A /* react-native-splash-screen.podspec in Resources */ = {isa = PBXBuildFile; fileRef = 019DFB9C2CD0A87C00C3185A /* react-native-splash-screen.podspec */; };
+		019DFBB22CD0A87C00C3185A /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 019DFB9D2CD0A87C00C3185A /* README.md */; };
+		019DFBB32CD0A87C00C3185A /* README.zh.md in Resources */ = {isa = PBXBuildFile; fileRef = 019DFB9E2CD0A87C00C3185A /* README.zh.md */; };
+		019DFBB72CD0A93F00C3185A /* libSplashScreen.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 019DFBA42CD0A87C00C3185A /* libSplashScreen.a */; };
 		0C80B921A6F3F58F76C31292 /* libPods-DiabeticU.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5DCACB8F33CDC322A6C60F78 /* libPods-DiabeticU.a */; };
 		13B07FBC1A68108700A75B9A /* AppDelegate.mm in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.mm */; };
 		13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
@@ -25,12 +41,37 @@
 			remoteGlobalIDString = 13B07F861A680F5B00A75B9A;
 			remoteInfo = DiabeticU;
 		};
+		019DFBA32CD0A87C00C3185A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 019DFB962CD0A87C00C3185A /* SplashScreen.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 3D7682761D8E76B80014119E;
+			remoteInfo = SplashScreen;
+		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		00E356EE1AD99517003FC87E /* DiabeticUTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DiabeticUTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		00E356F11AD99517003FC87E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		00E356F21AD99517003FC87E /* DiabeticUTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DiabeticUTests.m; sourceTree = "<group>"; };
+		019DFB822CD0A87C00C3185A /* SplashScreen.java */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.java; path = SplashScreen.java; sourceTree = "<group>"; };
+		019DFB832CD0A87C00C3185A /* SplashScreenModule.java */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.java; path = SplashScreenModule.java; sourceTree = "<group>"; };
+		019DFB842CD0A87C00C3185A /* SplashScreenReactPackage.java */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.java; path = SplashScreenReactPackage.java; sourceTree = "<group>"; };
+		019DFB8A2CD0A87C00C3185A /* refs.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = refs.xml; sourceTree = "<group>"; };
+		019DFB8B2CD0A87C00C3185A /* strings.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = strings.xml; sourceTree = "<group>"; };
+		019DFB8C2CD0A87C00C3185A /* styles.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = styles.xml; sourceTree = "<group>"; };
+		019DFB8F2CD0A87C00C3185A /* AndroidManifest.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = AndroidManifest.xml; sourceTree = "<group>"; };
+		019DFB922CD0A87C00C3185A /* build.gradle */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = build.gradle; sourceTree = "<group>"; };
+		019DFB942CD0A87C00C3185A /* RNSplashScreen.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RNSplashScreen.h; sourceTree = "<group>"; };
+		019DFB952CD0A87C00C3185A /* RNSplashScreen.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RNSplashScreen.m; sourceTree = "<group>"; };
+		019DFB962CD0A87C00C3185A /* SplashScreen.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; path = SplashScreen.xcodeproj; sourceTree = "<group>"; };
+		019DFB982CD0A87C00C3185A /* index.d.ts */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.typescript; path = index.d.ts; sourceTree = "<group>"; };
+		019DFB992CD0A87C00C3185A /* index.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = index.js; sourceTree = "<group>"; };
+		019DFB9A2CD0A87C00C3185A /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		019DFB9B2CD0A87C00C3185A /* package.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = package.json; sourceTree = "<group>"; };
+		019DFB9C2CD0A87C00C3185A /* react-native-splash-screen.podspec */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "react-native-splash-screen.podspec"; sourceTree = "<group>"; };
+		019DFB9D2CD0A87C00C3185A /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		019DFB9E2CD0A87C00C3185A /* README.zh.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.zh.md; sourceTree = "<group>"; };
 		13B07F961A680F5B00A75B9A /* DiabeticU.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DiabeticU.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		13B07FAF1A68108700A75B9A /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = DiabeticU/AppDelegate.h; sourceTree = "<group>"; };
 		13B07FB01A68108700A75B9A /* AppDelegate.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; name = AppDelegate.mm; path = DiabeticU/AppDelegate.mm; sourceTree = "<group>"; };
@@ -61,6 +102,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				019DFBB72CD0A93F00C3185A /* libSplashScreen.a in Frameworks */,
 				0C80B921A6F3F58F76C31292 /* libPods-DiabeticU.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -83,6 +125,128 @@
 				00E356F11AD99517003FC87E /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		019DFB852CD0A87C00C3185A /* splashscreen */ = {
+			isa = PBXGroup;
+			children = (
+				019DFB822CD0A87C00C3185A /* SplashScreen.java */,
+				019DFB832CD0A87C00C3185A /* SplashScreenModule.java */,
+				019DFB842CD0A87C00C3185A /* SplashScreenReactPackage.java */,
+			);
+			path = splashscreen;
+			sourceTree = "<group>";
+		};
+		019DFB862CD0A87C00C3185A /* rn */ = {
+			isa = PBXGroup;
+			children = (
+				019DFB852CD0A87C00C3185A /* splashscreen */,
+			);
+			path = rn;
+			sourceTree = "<group>";
+		};
+		019DFB872CD0A87C00C3185A /* devio */ = {
+			isa = PBXGroup;
+			children = (
+				019DFB862CD0A87C00C3185A /* rn */,
+			);
+			path = devio;
+			sourceTree = "<group>";
+		};
+		019DFB882CD0A87C00C3185A /* org */ = {
+			isa = PBXGroup;
+			children = (
+				019DFB872CD0A87C00C3185A /* devio */,
+			);
+			path = org;
+			sourceTree = "<group>";
+		};
+		019DFB892CD0A87C00C3185A /* java */ = {
+			isa = PBXGroup;
+			children = (
+				019DFB882CD0A87C00C3185A /* org */,
+			);
+			path = java;
+			sourceTree = "<group>";
+		};
+		019DFB8D2CD0A87C00C3185A /* values */ = {
+			isa = PBXGroup;
+			children = (
+				019DFB8A2CD0A87C00C3185A /* refs.xml */,
+				019DFB8B2CD0A87C00C3185A /* strings.xml */,
+				019DFB8C2CD0A87C00C3185A /* styles.xml */,
+			);
+			path = values;
+			sourceTree = "<group>";
+		};
+		019DFB8E2CD0A87C00C3185A /* res */ = {
+			isa = PBXGroup;
+			children = (
+				019DFB8D2CD0A87C00C3185A /* values */,
+			);
+			path = res;
+			sourceTree = "<group>";
+		};
+		019DFB902CD0A87C00C3185A /* main */ = {
+			isa = PBXGroup;
+			children = (
+				019DFB892CD0A87C00C3185A /* java */,
+				019DFB8E2CD0A87C00C3185A /* res */,
+				019DFB8F2CD0A87C00C3185A /* AndroidManifest.xml */,
+			);
+			path = main;
+			sourceTree = "<group>";
+		};
+		019DFB912CD0A87C00C3185A /* src */ = {
+			isa = PBXGroup;
+			children = (
+				019DFB902CD0A87C00C3185A /* main */,
+			);
+			path = src;
+			sourceTree = "<group>";
+		};
+		019DFB932CD0A87C00C3185A /* android */ = {
+			isa = PBXGroup;
+			children = (
+				019DFB912CD0A87C00C3185A /* src */,
+				019DFB922CD0A87C00C3185A /* build.gradle */,
+			);
+			path = android;
+			sourceTree = "<group>";
+		};
+		019DFB972CD0A87C00C3185A /* ios */ = {
+			isa = PBXGroup;
+			children = (
+				019DFB942CD0A87C00C3185A /* RNSplashScreen.h */,
+				019DFB952CD0A87C00C3185A /* RNSplashScreen.m */,
+				019DFB962CD0A87C00C3185A /* SplashScreen.xcodeproj */,
+			);
+			path = ios;
+			sourceTree = "<group>";
+		};
+		019DFB9F2CD0A87C00C3185A /* react-native-splash-screen */ = {
+			isa = PBXGroup;
+			children = (
+				019DFB932CD0A87C00C3185A /* android */,
+				019DFB972CD0A87C00C3185A /* ios */,
+				019DFB982CD0A87C00C3185A /* index.d.ts */,
+				019DFB992CD0A87C00C3185A /* index.js */,
+				019DFB9A2CD0A87C00C3185A /* LICENSE */,
+				019DFB9B2CD0A87C00C3185A /* package.json */,
+				019DFB9C2CD0A87C00C3185A /* react-native-splash-screen.podspec */,
+				019DFB9D2CD0A87C00C3185A /* README.md */,
+				019DFB9E2CD0A87C00C3185A /* README.zh.md */,
+			);
+			name = "react-native-splash-screen";
+			path = "../node_modules/react-native-splash-screen";
+			sourceTree = "<group>";
+		};
+		019DFBA02CD0A87C00C3185A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				019DFBA42CD0A87C00C3185A /* libSplashScreen.a */,
+			);
+			name = Products;
 			sourceTree = "<group>";
 		};
 		13B07FAE1A68108700A75B9A /* DiabeticU */ = {
@@ -112,6 +276,7 @@
 		832341AE1AAA6A7D00B99B32 /* Libraries */ = {
 			isa = PBXGroup;
 			children = (
+				019DFB9F2CD0A87C00C3185A /* react-native-splash-screen */,
 			);
 			name = Libraries;
 			sourceTree = "<group>";
@@ -224,6 +389,12 @@
 			mainGroup = 83CBB9F61A601CBA00E9B192;
 			productRefGroup = 83CBBA001A601CBA00E9B192 /* Products */;
 			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = 019DFBA02CD0A87C00C3185A /* Products */;
+					ProjectRef = 019DFB962CD0A87C00C3185A /* SplashScreen.xcodeproj */;
+				},
+			);
 			projectRoot = "";
 			targets = (
 				13B07F861A680F5B00A75B9A /* DiabeticU */,
@@ -231,6 +402,16 @@
 			);
 		};
 /* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		019DFBA42CD0A87C00C3185A /* libSplashScreen.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libSplashScreen.a;
+			remoteRef = 019DFBA32CD0A87C00C3185A /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
 
 /* Begin PBXResourcesBuildPhase section */
 		00E356EC1AD99517003FC87E /* Resources */ = {
@@ -244,9 +425,20 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				019DFBAE2CD0A87C00C3185A /* index.js in Resources */,
+				019DFBA92CD0A87C00C3185A /* strings.xml in Resources */,
+				019DFBAC2CD0A87C00C3185A /* build.gradle in Resources */,
+				019DFBB02CD0A87C00C3185A /* package.json in Resources */,
+				019DFBB22CD0A87C00C3185A /* README.md in Resources */,
+				019DFBAB2CD0A87C00C3185A /* AndroidManifest.xml in Resources */,
+				019DFBAF2CD0A87C00C3185A /* LICENSE in Resources */,
+				019DFBB12CD0A87C00C3185A /* react-native-splash-screen.podspec in Resources */,
+				019DFBAA2CD0A87C00C3185A /* styles.xml in Resources */,
+				019DFBB32CD0A87C00C3185A /* README.zh.md in Resources */,
 				81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */,
 				13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */,
 				3F956E8AC280FE67378D81A4 /* PrivacyInfo.xcprivacy in Resources */,
+				019DFBA82CD0A87C00C3185A /* refs.xml in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -396,7 +588,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				019DFBA62CD0A87C00C3185A /* SplashScreenModule.java in Sources */,
+				019DFBA52CD0A87C00C3185A /* SplashScreen.java in Sources */,
 				13B07FBC1A68108700A75B9A /* AppDelegate.mm in Sources */,
+				019DFBA72CD0A87C00C3185A /* SplashScreenReactPackage.java in Sources */,
+				019DFBAD2CD0A87C00C3185A /* RNSplashScreen.m in Sources */,
 				13B07FC11A68108700A75B9A /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
